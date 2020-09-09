@@ -9,6 +9,12 @@ To run tests
 
 ```sbt test```
 
+# How to use
+
+Just click on black cell that close to empty cell and thay will switch
+
+To shuffle board just click on empty cell
+
 # Design
 ![Class Diagram](docs/diagram.png)
 
