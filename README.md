@@ -22,3 +22,4 @@ To run tests
 6. Documentation is not in good condition
 7. It not well tested with gridSize > 4
 8. On close actions
+9. Hardcode values should be in config file
