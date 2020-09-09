@@ -1,0 +1,34 @@
+@startuml
+
+interface GameManager<F, A> {
+    + run: F[A]
+}
+
+interface BoardStateManager<F> {
+    + getState : F[Board]
+    + setState(board: Board): F[Unit]
+}
+
+interface ShuffleAlgorithm {
+    + shuffleBoard(board: Board):Board
+}
+
+interface RandomizeAlgorithm {
+    + nextInt(range: Int):Int
+}
+
+interface BoardView {
+    + root:Pane
+}
+
+interface CellView {
+    + root:Pane
+}
+
+BoardStateManager <|-- GameManager
+ShuffleAlgorithm <|-- GameManager
+RandomizeAlgorithm <|-- ShuffleAlgorithm
+BoardView <|-- GameManager
+BoardView -> CellView
+
+@enduml
