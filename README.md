@@ -1,7 +1,7 @@
-#Fifteen Puzzle Game
+# Fifteen Puzzle Game
 Simple implementation for puzzle fifteen game using ScalaFX
 
-#How to run
+# How to run
 
 ```sbt run```
 
@@ -9,10 +9,10 @@ To run tests
 
 ```sbt test```
 
-#Design
+# Design
 ![Class Diagram](docs/diagram.png)
 
-#What is missing
+# What is missing
 
 1. Current implementation of View is bad and have mutability that could be avoided
 2. View logic isn't covered with tests
