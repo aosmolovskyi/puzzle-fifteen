@@ -23,3 +23,4 @@ To run tests
 7. It not well tested with gridSize > 4
 8. On close actions
 9. Hardcode values should be in config file
+10. Shuffle algorithm optimization (If it's unsolvable greatest way it to switch 2 cells in such way, that iversion count become correct)
